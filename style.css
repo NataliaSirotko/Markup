@@ -1,0 +1,790 @@
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Lato Hairline'), local('Lato-Hairline'), url(https://fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHh30AXC-q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwiPGQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPGQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh50XSwiPGQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url(https://fonts.gstatic.com/s/montserrat/v12/JTURjIg1_i6t8kCHKm45_aZA3gnD_g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@media screen and (min-width: 1601px) {
+  body {
+	max-width: 90%;
+  }
+   .menu_item {
+	margin-left: 70px;
+  }
+  .wr {
+	position: absolute;
+	top: 390px;
+	left: 550px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  body {
+	max-width: 100%;
+  }
+  .wrapper {
+  	width: 90%;
+  }
+  footer .wrapper, .packages-wrapper {
+  	width: 85%;
+  }
+  .about-us, .functions {
+  	width: 80%;
+  }
+  .menu_item {
+  	margin-left: 70px;
+  }
+  .wr {
+	position: absolute;
+	top: 390px;
+	left: 450px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  body {
+	max-width: 100%;
+  }
+  .wrapper {
+  	width: 100%;
+  }
+  header {
+  	width: 80%; 
+  }
+  .menu_item {
+  	margin-left: 30px;
+  }
+  .wr {
+  	position: absolute;
+  	top: 400px;
+  	left: 270px;
+  }
+  .domain {
+  	width: 75%;
+  }
+  .packages-wrapper {
+  	width: 70%;
+ 	margin-bottom: 500px;	
+  }
+  .package {
+  	margin-bottom: 10px;
+  }
+  .about-us, .functions {
+  	width: 90%;
+  }
+  .about-us, .comments, .functions, footer {
+  	position: relative;
+  	top: 550px;
+  }
+  .about-us .text {
+  	width: 50%;
+  	box-sizing: border-box;
+  	padding-left: 10px;
+  }
+  .quote div {
+  	width: 70%;
+  	margin: 0 auto;
+  }
+  footer .wrapper {
+  	width: 90%;
+  }
+  footer {
+  	height: 360px;
+  }
+}
+
+
+body {
+	width: 1600px;
+	margin: 0;
+}
+header {
+	position: absolute;
+	top: 0px;
+	left: 15%;
+	right: 0;
+	z-index: 5;	
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0px auto;
+}
+	
+.header-wrap {
+	height: 86px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.logo {
+	margin-top: 20px;
+}
+.logo_link  img{
+	display: inline-block;
+	line-height: 86px;
+}
+.menu {
+	list-style: none;
+	display: flex;
+}
+/*.menu_item {
+	margin-left: 70px;
+}
+*/
+.menu_link{
+	display: inline-block;
+	line-height: 86px;
+	font-family: ﻿"﻿MyriadPro-Regular", "Lato-Regular", sans-serif;
+	font-size: 14pt;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	transition: font-size .6s;
+}
+.menu_link.active {
+	border-bottom: 1px solid #fff;
+}
+.menu_link:hover {
+	border-bottom: 1px solid #fff;
+	font-size: 16pt;
+}
+
+/*banner 1*/
+.banner-one {
+	max-width: 1600px;
+	height: 961px;
+	background: linear-gradient(to top, rgba(0, 0, 0, .83), rgba(0, 0, 0, .83)), url("images/ban1.png") no-repeat center top;
+}
+.wr {
+	/*position: absolute;
+	top: 390px;
+	left: 550px;*/
+	text-align: center;
+}
+h1 {
+	font-family: ﻿"MyriadPro-Bold", "MyriadPro-Regular", "Lato-Regular", sans-serif;
+	font-size: 60pt;
+	line-height: 48pt;
+	color: rgba(255, 255, 255, 255);
+	text-transform: uppercase;
+}
+.banner-one p {
+	font-family: ﻿"Georgia-Italic", ﻿"MyriadPro-Regular", "Lato-Regular", sans-serif;
+	font-size: 32pt;
+	line-height: 14pt;
+	color: rgba(255, 255, 255, 255);
+}
+
+/*section pannel*/
+.pannel {
+	max-width: 100%;
+	height: 124px;
+	position: relative;
+}
+.login {
+	float: left;
+	width: 51%;
+	height: 122px;
+	background: linear-gradient(-77deg, rgba(57, 208, 131, .91) 0px, rgba(57, 208, 131, .91) 30px, rgba(32, 55, 71, .91) 30px, rgba(32, 55, 71, .91) 60px);
+}
+
+.register {
+	float: left;
+	width: 49%;
+	height: 122px;
+	background-color: rgba(57, 208, 131, .91);
+}
+
+.login p, .register p {
+	position: absolute;
+	top: 25px;
+}
+.login p {
+	left: 25%;
+}
+.register p {
+	right: 25%;
+}
+
+.login a, .register a {
+	display: block;
+	width: 97%;
+	height: 100%;
+	text-decoration: none;
+	font-family: "﻿Lato-Bold", "﻿Lato-Medium", "﻿MyriadPro-Regular", sans-serif;
+	font-size: 22pt;
+	text-transform: uppercase;
+	color: #fff;
+	transition: letter-spacing ease 1s, font-size ease 1s, color ease 1s;
+}
+
+.login a:hover, .register a:hover {
+	letter-spacing: 1px;
+	font-size: 28pt;
+	color: red;
+}
+
+/* Domain*/
+.domain {
+	max-width: 890px;
+	margin: 80px auto 90px;
+}
+.domain h3 {
+	font-family: ﻿"Lato-Heavy", ﻿"MyriadPro-Regular", sans-serif;
+	font-size: 24pt;
+	color: rgba(56, 55, 55, 255);
+	text-align: center;
+}
+ .domain p {
+ 	font-family: ﻿"Montserrat", sans-serif;
+	font-size: 16pt;
+	word-spacing: 2px;
+	color: rgba(162, 162, 162, 255);
+	text-align: justify;
+ }
+ .domain input {
+ 	width: 100%;
+ 	box-sizing: border-box;
+ 	line-height: 3em;
+ 	font-family: ﻿"Lato-Semibold", sans-serif;
+	font-size: 15pt;
+	color: rgba(134, 134, 134, 255);
+	font-weight: bold;
+	border: 1px solid rgba(0, 0, 0, .2);
+	
+
+	margin-top: 30px;
+	margin-bottom: 40px;
+	padding: 0px 85px;
+
+}
+
+::-webkit-input-placeholder {line-height: 3em;}
+::-moz-placeholder          {line-height: 3em;}
+:-moz-placeholder           {line-height: 3em;}
+:-ms-input-placeholder      {line-height: 3em;}
+
+.domain .www {
+	position: relative;
+	top: 70px;
+	left: 15px;
+	line-height: 0px;
+	font-family: ﻿"Lato-Regular", sans-serif;
+	font-size: 15pt;
+	color: rgba(134, 134, 134, 255);
+	padding: 10px 15px 10px 0px;
+	border-right: 1px solid rgba(0, 0, 0, .2);
+}
+select {
+	font-family: ﻿"Lato-Regular", sans-serif;
+	font-size: 15pt;
+	color: rgba(134, 134, 134, 255);
+	border-right: 1px solid red;
+}
+.domain .table {
+	width: 100%;
+	height: 200px;
+	border: 1px solid rgba(0, 0, 0, .2);
+	box-sizing: border-box;
+	border-spacing: 0px 18px;
+}
+
+.domain td:not(:last-child), .domain th:not(:last-child) {
+	border-right: 1px solid rgba(0, 0, 0, .2);
+	text-transform: uppercase;
+}
+
+.domain td, .domain th {
+	width: 25%;
+	font-family: ﻿"Lato-Regular";
+	font-size: 14pt;
+	font-weight: normal;
+	color: rgba(203, 203, 203, 255);
+	text-align: center;
+	position: relative;
+}
+
+.domain td::before {
+    position: absolute;
+    top: -9px;
+    left: 7px;
+    right: 7px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    content:"";
+}
+.domain td:first-child::before {
+	position: absolute;
+    top: -9px;
+    left: 29px;
+    right: 7px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    content:"";
+}
+.domain td:last-child::before {
+	position: absolute;
+    top: -9px;
+    left: 7px;
+    right: 29px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    content:"";
+}
+
+/*Banner 2*/
+.banner-two {
+	max-width: 1600px;
+	height: 383px;
+	background: repeating-linear-gradient(-45deg,
+    rgba(13, 13, 13, .2), rgba(13, 13, 13, .2) 1px,
+    rgba(13, 13, 13, 0), rgba(13, 13, 13, 0) 5px),
+	linear-gradient(to left top, rgba(13, 13, 13, .7), rgba(13, 13, 13, .7)),
+	url("images/ban22.png") no-repeat center 40%; 
+}
+
+/*Packages*/
+
+.packages-wrapper {
+	position: relative;
+	top: -283px;
+	max-width: 1220px;
+	height: 565px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.package {
+	width: 255px;
+	height: 565px;
+	border-top: 5px solid;
+	background-color: #fff;
+	box-shadow: 1px 3px 7px rgba(0, 0, 0, .1), -1px -3px 7px rgba(0, 0, 0, .1);
+	box-sizing: border-box;
+	padding: 30px 27px 0px;
+}
+.package.one {
+	border-color: rgb(249, 212, 35);
+}
+
+.package.two {
+	border-color: rgb(127, 140, 141);
+}
+.package.three {
+	border-color: rgb(248, 95, 64);
+}
+.package.four {
+	border-color: rgb(26, 188, 156);
+}
+
+.pack {
+	width: 55px;
+	height: 55px;
+	box-sizing: border-box;
+	border: 6px solid; 
+	border-radius: 50%;
+	margin: 0px auto;
+	position: relative;
+}
+.logo_one {
+	border-color: transparent;
+	border-top-color: rgb(249, 212, 35);
+  	transform: rotate(45deg);
+}
+.pack img {
+	position: absolute;
+	top: 13px;
+	left: 13px;
+	transform: rotate(-45deg);
+}
+.logo_two {
+	border-color: rgb(127, 140, 141);
+	border-left-color:  transparent;
+  	border-bottom-color: transparent;
+  	transform: rotate(45deg);
+}
+
+.logo_three {
+	border-color: rgb(248, 95, 64);
+	border-left-color:  transparent;
+  	transform: rotate(45deg);
+}
+.logo_four {
+	border-color: rgb(26, 188, 156);
+}
+.logo_four img {
+	top: 14px;
+	left: 12px;
+	transform: rotate(0deg);
+}
+.package p {
+	font-family: ﻿"Lato-Bold", ﻿"﻿Lato-Medium", "MyriadPro-Regular", sans-serif;
+	font-size: 14pt;
+	
+	color: rgb(40, 40, 40);
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+.package table {
+	width: 200px;
+	height: 280px;
+	border-top: 1px solid rgb(180, 180, 180);
+	border-bottom: 1px solid rgb(180, 180, 180);
+	font-family: ﻿"Lato-Light", ﻿"Lato-Semibold", "MyriadPro-Regular", sans-serif;
+	font-size: 14pt;
+	color: rgb(180, 180, 180);
+}
+
+.number {
+	text-align: right;
+	font-weight: bold;
+}
+.number.one {
+	color: rgb(249, 212, 35);
+}
+.number.two {
+	color: rgb(127, 140, 141);
+}
+.number.three {
+	color: rgb(248, 95, 64);
+}
+.number.four {
+	color: rgb(26, 188, 156);
+}
+
+.package .price p {
+	width: 70%;
+	margin: 20px auto 0px;
+	padding-bottom: 7px;
+	border-bottom: 3px solid;
+	font-size: 22pt;
+	font-family: ﻿"Lato-Heavy", ﻿"Lato-Bold", sans-serif; ﻿
+	color: rgb(44, 44, 44);
+}
+.package.one .price p {
+	border-color: rgb(249, 212, 35);
+}
+.package.two .price p {
+	border-color: rgb(127, 140, 141);
+}
+.package.three .price p {
+	border-color: rgb(248, 95, 64);
+}
+.package.four .price p {
+	border-color: rgb(26, 188, 156);
+}
+.dol {
+	font-family: ﻿"Lato-Regular", sans-serif; ﻿
+	color: rgb(44, 44, 44);
+	font-size: 12pt;
+	vertical-align: top;
+}
+
+.mo {
+	font-family: ﻿"Lato-Light", ﻿"Lato-Semibold", "MyriadPro-Regular", sans-serif;
+	color: rgb(180, 180, 180);
+	font-size: 10pt;
+	text-transform: none;
+	font-weight: normal;
+}
+.package a {
+	text-decoration: none;
+}
+.package  a  p{
+	transition: font-size 1s, letter-spacing 1s;
+}
+.package a p:hover {
+	font-size: 16pt;
+	letter-spacing: 1px;
+}
+.package p:active {
+	font-size: 14pt;
+	color: blue;
+}
+
+/*section about-us*/
+.about-us {
+	max-width: 1200px;
+	margin: -200px auto 0px;
+	border-top: 4px dotted rgb(203, 203, 203);
+	padding-top: 90px;
+	display: flex;
+	justify-content: space-between;
+	color: rgb(116, 116, 116);
+}
+
+.about-us .text {
+	max-width: 420px;
+	font-family: ﻿"Lato-Thin", ﻿"MyriadPro-Regular", sans-serif;
+	font-size: 14pt;
+	line-height: 20pt;
+	text-align: justify;
+	color: rgba(116, 116, 116, 255);
+	padding-right: 100px;
+	border-right: 4px dotted rgb(203, 203, 203);
+}
+
+.about-us h2 {
+	font-family: ﻿"Lato-Black", ﻿"Lato-Semibold", ﻿"﻿MyriadPro-Regular", sans-serif;
+	color: rgb(48, 48, 48);
+	line-height: 10pt;
+}
+.text span {
+	font-weight: normal;
+}
+.doe {
+	width: 115px;
+	text-align: center;
+	font-family: ﻿"Lato-Regular", "﻿MyriadPro-Regular", sans-serif;
+	font-size: 13pt;
+	color: rgb(142, 142, 142);
+	line-height: 8pt;
+}
+.doe .avatar {
+	width: 90px;
+	border: 5px solid rgba(203, 203, 203, .5);
+	border-radius: 50%;
+}
+.doe img + p {
+	font-family: ﻿"Lato-Semibold", "﻿MyriadPro-Regular", sans-serif;
+	font-size: 14pt;
+	line-height: 8pt;
+	color: rgb(48, 48, 48);
+}
+.contacts {
+	display: flex;
+	justify-content: space-between;
+	margin: 0px 12px;
+	transition: background .5s, width .5s;
+}
+.contacts img:hover {
+	background: yellow;
+	width: 200%;
+}
+
+ /*section comments*/
+.comments {
+	max-width: 1600px;
+	height: 190px;
+	background: repeating-linear-gradient(-45deg,
+      rgba(0, 0, 0, .1), rgba(0, 0, 0, .1) 1px,
+      rgba(0, 0, 0, 0) , rgb(0, 0, 0, 0) 5px),
+	linear-gradient(to top, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(images/ban33.png) no-repeat center top;
+	margin: 100px auto;
+}
+.quote {
+	color: #fff;
+	width: 890px;
+	margin: 0 auto; 
+	font-family: ﻿"Lato-Light", "MyriadPro-Regular", sans-serif;
+	font-size: 16pt;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding-top: 30px;
+}
+
+.slider {
+	font-family: ﻿"Lato-Bold", ﻿"﻿MyriadPro-Regular", sans-serif;
+	font-weight: bold;
+}
+.slider div {
+	display: inline-block;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	
+	border: 1px solid #fff;
+	margin-left: 8px;
+	transition: width .3s, height .3s;
+}
+.slider div:hover {
+	width: 10px;
+	height: 10px;
+}
+.slider span {
+	padding-right: 15px;
+	border-right: 1px solid #fff;
+}
+.slider .on {
+	background: white;
+}
+
+/*section functions*/
+.functions {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.tools {
+	width: 245px;
+
+}
+.tools a  {
+	font-family: ﻿"Lato-Heavy", "﻿MyriadPro-Regular", sans-serif;
+	font-size: 16pt;
+	color: rgb(48, 48, 48);
+	text-decoration: none;
+}
+.tools a + p {
+	font-family: ﻿"Lato-Light", ﻿"﻿MyriadPro-Regular", sans-serif;
+	font-size: 14pt;
+	color: rgb(126, 126, 126);
+}
+
+.icon {
+	width: 63px;
+	height: 63px;
+	color: green;
+	border-radius: 50%;
+	margin: 0 auto;
+	position: relative;
+}
+.icon img {
+	position: absolute;
+	top: 18px;
+	right: 17px;
+}
+.icon1 img {
+	right: 24px;
+}
+.tools div {
+	transition: width 1s;
+}
+.tools div:hover {
+	background: rgba(100, 0, 0, .8);
+}
+.icon1 {
+	background: rgb(241, 196, 16);
+}
+.icon2 {
+	background: rgb(15, 175, 241);
+}
+.icon3 {
+	background: rgb(149, 165, 166);
+}
+.icon4 {
+	background: rgb(241, 84, 15);
+}
+
+/*footer*/
+
+footer {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(42, 42, 42);
+	margin-top: 80px;
+	padding-bottom: 20px;
+}
+.footer-wrap {
+	height: 86px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(255, 255, 255, .2);
+	
+}
+.menu_li{
+	display: inline-block;
+	line-height: 86px;
+	font-family: ﻿"﻿MyriadPro-Regular", "Lato-Regular", sans-serif;
+	font-size: 14pt;
+	color: rgb(104, 104, 104);
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: font-size .6s;
+}
+.menu_li.active {
+	color: #fff;
+}
+.menu_li:hover {
+	color: #fff;
+	font-size: 16pt;
+}
+.foot {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	font-family: ﻿"Lato-Light", "﻿Lato-Semibold", "﻿Lato-Bold", "MyriadPro-Regular";
+	font-size: 14pt;
+	color: rgb(104, 104, 104);
+	text-align: justify;
+}
+.foot1, .foot3 {
+	
+	text-align: justify;
+}
+.foot1 {
+	width: 280px;
+	border-right: 1px solid rgb(104, 104, 104);
+	padding-right: 70px;
+} .foot1 > p + p {
+	font-weight: bold;
+}
+.foot2 {
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 10px;
+}
+.foot3 {
+	width: 280px;
+	border-left: 1px solid rgb(104, 104, 104);
+	padding-left: 50px;
+}
+.foot3 a {
+	margin-right: 5px;
+}
+.foot a {
+	font-family: ﻿"Lato-Light", "﻿Lato-Semibold", "﻿Lato-Bold", "MyriadPro-Regular";
+	font-size: 14pt;
+	color: rgb(104, 104, 104);
+	text-decoration: none;
+	line-height: 24pt;
+}
+.foot a.active, .foot a:hover {
+	color: #fff;
+}
