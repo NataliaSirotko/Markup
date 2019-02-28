@@ -461,7 +461,6 @@ select {
 .package p {
 	font-family: ﻿"Lato-Bold", ﻿"﻿Lato-Medium", "MyriadPro-Regular", sans-serif;
 	font-size: 14pt;
-	
 	color: rgb(40, 40, 40);
 	font-weight: bold;
 	text-align: center;
@@ -531,16 +530,14 @@ select {
 }
 .package a {
 	text-decoration: none;
-}
-.package  a  p{
+	color: black;
 	transition: font-size 1s, letter-spacing 1s;
 }
-.package a p:hover {
+.package a:hover {
 	font-size: 16pt;
 	letter-spacing: 1px;
 }
-.package p:active {
-	font-size: 14pt;
+.package a:active {
 	color: blue;
 }
 
@@ -549,12 +546,12 @@ select {
 	max-width: 1200px;
 	margin: -200px auto 0px;
 	border-top: 4px dotted rgb(203, 203, 203);
-	padding-top: 90px;
+	padding-top: 70px;
 	display: flex;
 	justify-content: space-between;
 	color: rgb(116, 116, 116);
 }
-
+	
 .about-us .text {
 	max-width: 420px;
 	font-family: ﻿"Lato-Thin", ﻿"MyriadPro-Regular", sans-serif;
@@ -581,13 +578,17 @@ select {
 	font-size: 13pt;
 	color: rgb(142, 142, 142);
 	line-height: 8pt;
+	margin: auto;
+}
+.johnathan {
+	margin-right: 0;
 }
 .doe .avatar {
 	width: 90px;
 	border: 5px solid rgba(203, 203, 203, .5);
 	border-radius: 50%;
 }
-.doe img + p {
+.doe figcaption p:first-child {
 	font-family: ﻿"Lato-Semibold", "﻿MyriadPro-Regular", sans-serif;
 	font-size: 14pt;
 	line-height: 8pt;
@@ -669,7 +670,7 @@ select {
 	color: rgb(48, 48, 48);
 	text-decoration: none;
 }
-.tools a + p {
+.tools p + p {
 	font-family: ﻿"Lato-Light", ﻿"﻿MyriadPro-Regular", sans-serif;
 	font-size: 14pt;
 	color: rgb(126, 126, 126);
@@ -690,9 +691,6 @@ select {
 }
 .icon1 img {
 	right: 24px;
-}
-.tools div {
-	transition: width 1s;
 }
 .tools div:hover {
 	background: rgba(100, 0, 0, .8);
